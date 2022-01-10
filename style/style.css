@@ -1,0 +1,127 @@
+body {
+    background-image: url(../img/background.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.800) !important;
+    box-shadow: 10px 5px 5px black
+}
+
+
+#conversion {
+    border: none;
+    margin: 10px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+.card .card-header h4 {
+    color: white;
+}
+
+.card-body {
+    border: none;
+    width: 100%;
+}
+
+#numero {
+    transition: 800ms;
+    max-width: 60%;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(255, 255, 255, 0.575);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin: 10px 0 10px 0;
+}
+
+#numero:hover{
+    transition: 800ms;
+    border-bottom-color: #24ce7b;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#numero:hover {
+    -webkit-appearance: none;
+}
+
+#conversion div > select {
+    transition: 800ms;
+    width: 100%;
+    background-color: rgba(1, 0, 0, 0);
+    color: white;
+    border-color: white;
+    margin: 10px 0 10px 0;
+}
+
+#conversion div > select:hover{
+    transition: 500ms;
+    border-color: #5d0e8b;
+}
+
+#moneda1 {
+    margin-right: 2.5px !important;
+}
+
+#moneda2 {
+    margin-left: 2.5px !important;
+}
+
+h5 {
+    margin: 10px 5px 10px 5px;
+    color: white;
+}
+
+option {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+
+
+#boton-convertir {
+    transition: 1000ms;
+    background-color: rgba(1,0,0,0);
+    color: white;
+    border-color: white;
+    margin: 10px 0 10px 0;
+
+}
+
+#boton-convertir:hover{
+    transition: 1000ms;
+    transform: scale(1.05);
+    border-color: #24ce7b;
+}
+
+#boton-limpiar-historial {
+    transition: 500ms;
+    background-color: rgba(1,0,0,0);
+    color: white;
+    border-color: white;
+    margin: 10px 0 10px 0;
+}
+
+#boton-limpiar-historial:hover{
+    transition: 500ms;
+    border-color: red;
+}
+
+#historial ul li {
+    color: white;
+}
+
+
+  
